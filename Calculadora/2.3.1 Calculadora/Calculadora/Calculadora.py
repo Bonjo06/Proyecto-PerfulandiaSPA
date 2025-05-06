@@ -8,7 +8,11 @@ while True:
             2- Restar
             3- Multiplicar
             4- dividir 
-            5- salir
+
+            6- salir
+
+            5- elevar
+
         """)
 
     valor = int(input("Elige una opcion: ") )     
@@ -25,9 +29,17 @@ while True:
     if valor == 4:
         print("la division es",num1/num2)
         break;
+        
     if valor == 5:
+
+        print(f"El número {num1} elevado a {num2} es",num1**num2)
+        break;
+    
+    if valor == 6:
+
         print("--Saliendo--")
         break;
+        
     else:
         print("Opcion incorrecta")
         break;
